@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css?family=Gabriela|Roboto');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-block {
+  justify-content: space-between;
+  display: flex;
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  height: 95px;
+  border-bottom: 1px solid;
+}
+
+.header-block__logo {
+  width: 50px;
+  height: 52px;
+}
+
+.header-block__title {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 23px 0 28px 45px;
+}
+
+.header-block__name {
+  color: #f49ec4;
+}
+
+.adventure-list__wrapper {
+  display: grid;
+  grid-template-columns: 200px auto;
+}
+
+.adventure {
+  margin: 60px 110px;
+}
+
+.adventure__image {
+  width: 200px;
+  height: 152px;
+  object-fit: fill;
+}
+
+.adventure__info {
+  margin-left: 34px;
+}
+
+.adventure__name {
+  font-size: 30px;
+  font-family: "Gabriela", serif;
+  margin-bottom: 22px;
+}
+
+.adventure__tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 22px;
+}
+
+.authorization__button,
+.adventure__tag-reference {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  background: #b3b3b3;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: white;
+  margin-right: 10px;
+}
+
+.tags__wrapper > a {
+  font-size: 34px;
+  font-family: "Roboto", sans-serif;
+  background: #555;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: white;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.adventure__tags > a:hover {
+  transition: 0.2s;
+  background: #7a7a7a;
+  cursor: pointer;
+}
+
+.scene__wrapper {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scene-image__wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 40px;
+}
+
+.scene__image {
+  width: 950px;
+  height: 380px;
+  object-fit: cover;
+}
+
+.scene-text__default {
+  margin-bottom: 40px;
+  width: 950px;
+  height: 380px;
+}
+
+.text__position_1 {
+  left: 50px;
+  top: 50px;
+}
+
+.text__position_2 {
+  right: 50px;
+  top: 50px;
+}
+
+.text__position_3 {
+  left: 50px;
+  bottom: 50px;
+}
+
+.text__position_4 {
+  right: 50px;
+  bottom: 50px;
+}
+
+.scene__text {
+  margin: 0;
+  max-width: 500px;
+  position: absolute;
+  font-size: 22px;
+  font-family: "Gabriela", serif;
+}
+
+.scene__text-default {
+  margin: 0;
+  padding-top: 50px;
+  padding-left: 50px;
+  max-width: 500px;
+  font-size: 22px;
+  font-family: "Gabriela", serif;
+}
+
+.tags__wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.tags__wrapper > a:hover {
+  transition: 0.2s;
+  background: #7a7a7a;
+  cursor: pointer;
+}
+
+.achievement {
+  max-width: 950px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.achievement__wrapper {
+  display: grid;
+  grid-template-columns: 150px auto;
+  max-width: 475px;
+}
+
+.achievement__image {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.achievement__description {
+  margin-left: 20px;
+}
+
+.achievement__description-get {
+  margin-top: 0;
+  font-size: 26px;
+  font-family: "Gabriela", serif;
+}
+
+.achievement__description-title {
+  font-size: 42px;
+  font-family: "Gabriela", serif;
+}
+
+#adventure__tag-name {
+  font-size: 42px;
+  font-family: "Gabriela", serif;
+  margin-left: 110px;
+}
+
+.search__block {
+  margin: 30px 110px;
+  max-width: 705px;
+}
+
+.find-name__block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.find-name__input {
+  height: 35px;
+  width: 600px;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.hashTag__input {
+  height: 35px;
+  width: 300px;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.find-name__button {
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 8px 18px;
+  margin-left: 10px;
+  font-size: 18px;
+  background: #f49ec4;
+  color: white;
+}
+
+.find-name__button:hover {
+  background: #f482c6;
+}
+
+.hashTag__input-block {
+  position: relative;
+}
+
+.hashTag__block {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.hashTag__block-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.hashTag__block__close {
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 15px;
+  color: white;
+}
+
+.hashTag__block-list__element {
+  height: 22px;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background: #2d75ff;
+  color: white;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hashTag__input-list {
+  background: #fff;
+  width: 99%;
+  position: absolute;
+  margin: 0;
+  border-bottom: solid 1px gray;
+  border-left: solid 1px gray;
+  border-right: solid 1px gray;
+  padding: 0;
+}
+
+.hashTag__element {
+  padding-left: 10px;
+  font-size: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.hashTag__element:hover {
+  cursor: pointer;
+}
+
+.hashTag__element_focus {
+  background-color: #b3b3b3;
+}
+
+.hashTag__element_search {
+  font-weight: bold;
+}
+
+.error {
+  margin-left: 110px;
+  font-size: 30px;
+  font-family: "Gabriela", serif;
+}
+
+.button-color-pink {
+  background: #f49ec4;
+}
+
+.button-color-pink:hover {
+  cursor: pointer;
+  background: #f482c6;
+}
+
+.button-color-grey:hover {
+  cursor: pointer;
+  background: #7a7a7a;
+}
+
+.authorization-block {
+  padding: 10px 0 25px 0;
+}
+
+.authorization-page__block {
+  display: flex;
+  flex-direction: column;
+  margin: 0 110px;
+}
+
+.word-on-top-page {
+  font-size: 42px;
+  margin: 25px 0;
+  font-family: "Gabriela", serif;
+}
+
+.user-input {
+  width: 200px;
+  height: 35px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.enter-wrapper {
+  margin-top: 20px;
+}
+
+.choose-file {
+  max-width: 300px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.user-block {
+  flex-direction: row;
+  display: inline-flex;
+  align-items: center;
+}
+
+.user-card {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 90px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.user-login {
+  font-size: 25px;
+  margin: 25px 0;
+  font-family: "Gabriela", serif;
+}
+
+.avatar-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.pass-counter {
+  background: #fff;
+  color: #222;
+  border-radius: 90px;
+  position: absolute;
+  right: 12px;
+  font-size: 14px;
+  padding: 3px 5px;
+}
+
+.avatar-block {
+  display: inline-flex;
+}

@@ -1,6 +1,6 @@
 # Azakov-task-2018
 
-В основе [Express.js](https://expressjs.com/) и [Handelbars](http://handlebarsjs.com/). Статика приложения размещается в [Surge CDN](https://surge.sh/), а само приложение в облаке [Heroku](https://www.heroku.com/). Автоматизация настроена в [Circle CI](https://circleci.com/).
+В основе [Express.js](https://expressjs.com/) и [React](https://reactjs.org/). Статика приложения размещается в [Surge CDN](https://surge.sh/), а само приложение в облаке [Heroku](https://www.heroku.com/). Автоматизация настроена в [Circle CI](https://circleci.com/).
 
 ### Разработка
 
